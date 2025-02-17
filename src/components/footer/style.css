@@ -1,0 +1,181 @@
+.footer-container {
+  background-color: #343a40;
+  position: relative;
+  width: 100%;
+  height: 850px;
+}
+
+.footer-background-text {
+  font-size: 10em;
+  color: #4a5052 !important;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.footer-upper-heading {
+  position: absolute;
+  top: 150px;
+  left: 40%;
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.footer-get-in-touch-container {
+  width: 100%;
+  height: 45%;
+}
+
+.footer-address {
+  display: block;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-form {
+  width: 800px;
+}
+
+.input-field-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.address-heading {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 100px;
+}
+
+.address-data {
+  font-size: 1rem;
+  color: #dee3e4;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  margin-left: 40px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.calling-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calling-icon {
+  text-align: center;
+}
+.mobile-number {
+  color: #dee3e4;
+  font-size: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer-form-heading {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.input-field {
+  width: 500px;
+  height: 50px;
+  background: #232a31;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #232a31;
+  margin: 30px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input-field:hover {
+  border-color: #3498db;
+}
+
+.input-field:focus {
+  border-color: #3498db;
+}
+
+.inputarea-field {
+  width: 750px;
+  height: 150px;
+  background: #232a31;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #fff;
+  margin: 30px;
+  line-height: normal;
+  border: 2px solid #232a31;
+  outline: none;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+  resize: none;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 150px;
+  background: #232a31;
+  display: grid;
+  grid-template-columns: 900px 448px;
+}
+
+.inputarea-field:hover {
+  border-color: #3498db;
+}
+
+.inputarea-field:focus {
+  border-color: #3498db;
+}
+
+.footer-button {
+  border-radius: 35px;
+  width: 250px;
+  padding: 20px 55px;
+  color: white;
+  font-size: 20px;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.footer-conditon {
+  font-size: 19px;
+  margin-top: 65px;
+  font-weight: 400;
+  margin-left: 65px;
+  color: white;
+}
+.footer-bottom-text {
+  margin-left: 30px;
+}
+.name-text-footer {
+  color: #3498db;
+  margin-left: 5px;
+}
+.copyright {
+  font-size: 18px;
+  margin-top: 65px;
+  font-weight: 400;
+  margin-left: 65px;
+  color: white;
+}
