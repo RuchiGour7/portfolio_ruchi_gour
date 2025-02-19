@@ -6,10 +6,10 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <p className="resume-back-heading">SUMMARY</p>
-      <div className="resume-main-container">
+      {/* <div className="resume-main-container"> */}
         <p className="resume-main-container-heading">Resume</p>
         {/* <div className="line"></div> */}
-      </div>
+      {/* </div> */}
 
       <div className="resume-cards-heading">
         <h1 className="main-heading">My Education</h1>

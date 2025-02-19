@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import CallingIcon from "../../image/calling-icon.png";
-import Tellephone from "../../image/telephone.png";
 import EmailIcon from "../../image/email-icon.png";
 
 const Footer = () => {
@@ -33,41 +32,14 @@ const Footer = () => {
             </div>
             <div className="calling-container">
               <img
-                src={Tellephone}
-                className="calling-icon"
-                width={"18px"}
-                height={"18px"}
-              />
-              <span className="mobile-number">(91) 7869 617 675</span>
-            </div>
-            <div className="calling-container">
-              <img
                 src={EmailIcon}
                 className="calling-icon"
                 width={"18px"}
                 height={"18px"}
               />
-              <span className="mobile-number">gourruchi50@gmail.com</span>
+              <span className="mobile-number">ruchidevfreelancer07@gmail.com</span>
             </div>
           </div>
-          {/* <div className="footer-form">
-            <p className="footer-form-heading">SEND US A NOTE</p>
-            <form>
-              <div className="input-field-container">
-                <input type="text" className="input-field" placeholder="Name" />
-                <input
-                  type="text"
-                  className="input-field"
-                  placeholder="Email"
-                />
-              </div>
-              <textarea
-                class="inputarea-field"
-                placeholder="Tell us more about your needs.."
-              ></textarea>
-              <button className="footer-button">Send Message</button>
-            </form>
-          </div> */}
         </div>
       </div>
       <div className="footer-bottom">

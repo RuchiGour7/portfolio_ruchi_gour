@@ -1,8 +1,14 @@
 .resume-container {
     width: 100%;
-    height: 1300px;
     background-color: #212529;
     position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
 
 }
 
@@ -13,21 +19,25 @@
     color: #343738;
     font-family: sans-serif;
     padding: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-.resume-main-container {
-    position: absolute;
-    top: 100px;
-    left: 600px;
-    margin-top: 20px;
-}
+/*  */
 
 .resume-main-container-heading {
-    font-size: 36px;
     font-family: sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 44%;
     color: white;
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
 .line {
     width: 67px;
     margin-top: 10px;
@@ -35,7 +45,6 @@
     background-color: #0d6efd;
     height: 4px;
 }
-
 .resume-cards {
     width: 100%;
     height: 300px;
@@ -44,39 +53,32 @@
     display: grid;
     grid-template-columns: 650px 650px;
 }
-
 .cards-education {
     background-color: #111418;
     margin: 40px;
 }
-
 .cards-experience {
     background-color: #111418;
     margin: 40px;
-
 }
-
 .resume-cards-heading {
     display: grid;
     grid-template-columns: 400px 800px;
     height: 20px;
     width: 100%;
 }
-
 .main-heading {
     color: white;
     font-size: 30px;
     font-family: sans-serif;
     margin-left: 50px;
 }
-
 .main-heading-experience {
     color: white;
     font-size: 30px;
     font-family: sans-serif;
     margin-left: 300px;
 }
-
 .year {
     width: 150px;
     color: white;
@@ -85,10 +87,8 @@
     border-radius: 10px;
     margin-top: 30px;
     border: 2px solid #0d6efd;
-    ;
     margin-left: 20px;
 }
-
 .degree {
     color: white;
     font-family: sans-serif;
@@ -97,9 +97,7 @@
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
-
 }
-
 .university {
     font-size: 16px;
     font-family: sans-serif;
@@ -107,7 +105,6 @@
     font-weight: bold;
     margin-left: 20px;
 }
-
 .college {
     font-size: 15px;
     font-weight: bold;

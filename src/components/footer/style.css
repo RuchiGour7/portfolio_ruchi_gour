@@ -2,33 +2,37 @@
   background-color: #343a40;
   position: relative;
   width: 100%;
-  height: 850px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
 }
-
 .footer-background-text {
-  font-size: 10em;
+  font-size: 121.584px;
   color: #4a5052 !important;
   font-weight: bold;
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 5%;
 }
-
 .footer-upper-heading {
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 40%;
   color: white;
   font-size: 44px;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
 .footer-get-in-touch-container {
   width: 100%;
   height: 45%;
 }
-
 .footer-address {
   display: block;
   height: 500px;

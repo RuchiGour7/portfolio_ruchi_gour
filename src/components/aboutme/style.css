@@ -3,29 +3,40 @@
     height: 900px;
     position: relative;
     background: #151616;
-
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .about-me-heading {
-    font-size: 10em;
+    font-size: 121.584px;
     color: #1e1f20 !important;
     font-weight: bold;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 5%;
 }
 
 .about-main-container {
-    position: absolute;
-    top: 160px;
-    left: 505px;
+    /* position: absolute;
+    top: 190px;
+    left: 505px; */
 }
 
 .about-me-text {
-    font-size: 36px;
-    font-family: sans-serif;
-    color: white;
+  position: absolute;
+  top: 100px;
+  left: 40%;
+  color: white;
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .line {
