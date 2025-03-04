@@ -5,6 +5,7 @@ import AboutMe from './components/aboutme/aboutme.';
 import Header from './components/header/header';
 import Resume from './components/resume/resume';
 import Services from './components/services/services';
+import MyWork from './components/mywork';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <section id="about"><AboutMe /></section>
       <section id="services"><Services /></section>
       <section id="resume"><Resume /></section>
+      <section id="mywork"><MyWork /></section>
       <section id="contact"><Footer /></section>
     </div>
   );

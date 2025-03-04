@@ -35,7 +35,7 @@ const AboutMe = () => {
             Name : <span>Ruchi Gour</span>
           </p>
           <p className="about-me-short-info">
-            Email : <span>gourruchi50@gmail.com</span>
+            Email : <span>ruchidevfreelancer07@gmail.com</span>
           </p>
           <p className="about-me-short-info">
             Age : <span>33</span>
