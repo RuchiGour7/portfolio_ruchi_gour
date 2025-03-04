@@ -43,8 +43,9 @@ const AboutMe = () => {
           <p className="about-me-short-info">
             From : <span>Bhopal Madhya Pradesh</span>
           </p>
-
+          <a href="./resume.pdf" download="Ruchi_Gour_Resume.pdf">
           <button className="download-buttton-cv">Download CV </button>
+      </a>
 
 
         </div>
